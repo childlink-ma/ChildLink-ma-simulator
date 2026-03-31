@@ -1,0 +1,130 @@
+{
+  "id": "omar_morning_routine",
+  "condition": "ASD",
+  "character": "omar",
+  "age": 7,
+  "level": 1,
+  "frameworks": ["ABA", "PBS", "Myles-Southwick"],
+  "languages": ["en", "fr", "ar", "es", "pt", "sw"],
+  "context": {
+    "en": "It is 7:45 AM. Omar must leave for school in 15 minutes. He has been playing with his toy cars and refuses to get dressed. He begins showing early signs of agitation — rocking slightly, avoiding eye contact.",
+    "fr": "Il est 7h45. Omar doit partir à l'école dans 15 minutes. Il joue avec ses voitures et refuse de s'habiller. Il commence à montrer des signes précoces d'agitation : il se balance légèrement et évite le regard.",
+    "ar": "الساعة 7:45 صباحاً. يجب أن يغادر عمر إلى المدرسة خلال 15 دقيقة. كان يلعب بسياراته اللعبة ويرفض الاستعداد للذهاب. يبدأ في إظهار علامات الانزعاج المبكرة.",
+    "es": "Son las 7:45. Omar debe salir para la escuela en 15 minutos. Está jugando con sus coches y se niega a vestirse. Empieza a mostrar señales tempranas de agitación.",
+    "pt": "São 7h45. Omar deve sair para a escola em 15 minutos. Está brincando com seus carrinhos e se recusa a se vestir. Começa a mostrar sinais precoces de agitação.",
+    "sw": "Ni saa 7:45 asubuhi. Omar lazima aondoke kwenda shule kwa dakika 15. Anacheza na magari yake ya toy na anakataa kuvaa. Anaanza kuonyesha dalili za mapema za msongo."
+  },
+  "phases": [
+    {
+      "phase": "rumbling",
+      "child_prompt": {
+        "en": "No! I don't want to get dressed. I'm staying here with my cars!",
+        "fr": "Non ! Je veux pas m'habiller. Je reste là avec mes voitures !",
+        "ar": "لا! لا أريد أن أرتدي ملابسي. سأبقى هنا مع سياراتي!",
+        "es": "¡No! No quiero vestirme. ¡Me quedo aquí con mis coches!",
+        "pt": "Não! Não quero me vestir. Fico aqui com meus carrinhos!",
+        "sw": "Hapana! Sitaki kuvaa. Ninabaki hapa na magari yangu!"
+      },
+      "good_response_keywords": [
+        "first-then", "visual schedule", "timer", "choice", "after", "when you",
+        "d'abord", "ensuite", "minuterie", "choix", "après", "emploi du temps",
+        "أولاً", "ثم", "مؤقت", "اختيار"
+      ],
+      "feedback": {
+        "good": {
+          "en": "Good approach. You used a first-then strategy which gives Omar a concrete motivator. Pairing a preferred activity (cars) with the non-preferred task (dressing) is a core ABA technique that reduces resistance without confrontation.",
+          "fr": "Bonne approche. Vous avez utilisé la stratégie d'abord-ensuite, qui donne à Omar une motivation concrète. Associer une activité préférée (les voitures) à une tâche non préférée (s'habiller) est une technique ABA fondamentale.",
+          "ar": "نهج جيد. لقد استخدمت استراتيجية أولاً-ثم التي تمنح عمر دافعاً ملموساً. ربط النشاط المفضل بالمهمة غير المفضلة هو أسلوب ABA أساسي يقلل المقاومة.",
+          "es": "Buen enfoque. Usaste la estrategia primero-luego, que le da a Omar una motivación concreta. Vincular una actividad preferida con una tarea no preferida es una técnica ABA fundamental.",
+          "pt": "Boa abordagem. Você usou a estratégia primeiro-depois, que dá a Omar uma motivação concreta. Vincular atividade preferida à tarefa não preferida é técnica ABA fundamental.",
+          "sw": "Mbinu nzuri. Ulitumia mkakati wa kwanza-kisha ambao humpa Omar msukumo wa kufaa. Kuunganisha shughuli inayopendwa na kazi isiyopendwa ni mbinu ya msingi ya ABA."
+        },
+        "neutral": {
+          "en": "Your response is calm, which is helpful. To be more effective, try offering a concrete motivator — for example, tell Omar he can bring one car to school after getting dressed. This gives him something to look forward to.",
+          "fr": "Votre réponse est calme, ce qui est utile. Pour plus d'efficacité, proposez une motivation concrète — par exemple, dites à Omar qu'il peut emmener une voiture à l'école après s'être habillé.",
+          "ar": "ردك هادئ وهذا مفيد. لمزيد من الفعالية، جرب تقديم دافع ملموس — على سبيل المثال، أخبر عمر أنه يمكنه إحضار سيارة إلى المدرسة بعد الاستعداد."
+        },
+        "poor": {
+          "en": "Avoid raising your voice or repeating the demand multiple times — this increases arousal during the rumbling phase and accelerates escalation. Omar is not being defiant; he is struggling with the transition. Try a visual cue or a first-then statement instead.",
+          "fr": "Évitez d'élever la voix ou de répéter la demande plusieurs fois — cela augmente l'arousal pendant la phase de grondement et accélère l'escalade. Omar n'est pas insolent ; il a du mal avec la transition. Essayez un repère visuel ou une formule d'abord-ensuite.",
+          "ar": "تجنب رفع صوتك أو تكرار الطلب عدة مرات — هذا يزيد من التوتر خلال مرحلة التصاعد. عمر لا يتصرف بعناد؛ إنه يعاني من صعوبة في الانتقال. جرب إشارة بصرية أو عبارة أولاً-ثم."
+        }
+      }
+    },
+    {
+      "phase": "rage",
+      "child_prompt": {
+        "en": "Omar throws his cars on the floor, starts crying loudly and covers his ears.",
+        "fr": "Omar jette ses voitures par terre, commence à pleurer fort et se bouche les oreilles.",
+        "ar": "يرمي عمر سياراته على الأرض ويبدأ في البكاء بصوت عالٍ ويغطي أذنيه.",
+        "es": "Omar tira sus coches al suelo, empieza a llorar fuerte y se tapa los oídos.",
+        "pt": "Omar joga os carrinhos no chão, começa a chorar alto e tapa os ouvidos.",
+        "sw": "Omar anatupa magari yake sakafuni, anaanza kulia kwa nguvu na kufunika masikio yake."
+      },
+      "good_response_keywords": [
+        "quiet", "calm", "reduce", "space", "safe", "wait", "no words",
+        "calme", "espace", "silencieux", "attendre", "sécurité",
+        "هدوء", "مساحة", "انتظر", "آمن"
+      ],
+      "feedback": {
+        "good": {
+          "en": "Correct. During the rage phase, the priority is safety and sensory reduction — not instruction or negotiation. Staying nearby without speaking, reducing noise, and keeping the environment calm gives Omar's nervous system time to regulate.",
+          "fr": "Correct. Pendant la phase de rage, la priorité est la sécurité et la réduction sensorielle — pas l'instruction ni la négociation. Rester proche sans parler, réduire le bruit permet au système nerveux d'Omar de se réguler.",
+          "ar": "صحيح. خلال مرحلة الانفجار، الأولوية هي السلامة وتقليل الحمل الحسي — وليس التعليم أو التفاوض. البقاء قريباً دون كلام يمنح جهاز عمر العصبي وقتاً للتنظيم."
+        },
+        "neutral": {
+          "en": "You stayed calm, which is important. During rage phase, try to minimize all verbal input — even reassuring words can increase stimulation. Focus on physical safety and wait.",
+          "fr": "Vous êtes resté calme, c'est important. En phase de rage, minimisez les interactions verbales — même les paroles rassurantes peuvent augmenter la stimulation. Concentrez-vous sur la sécurité physique.",
+          "ar": "بقيت هادئاً وهذا مهم. خلال مرحلة الانفجار، قلل من التفاعل اللفظي — حتى الكلمات المطمئنة قد تزيد التحفيز. ركز على السلامة الجسدية."
+        },
+        "poor": {
+          "en": "Attempting to reason, punish, or physically redirect during the rage phase will escalate the situation. Omar cannot process language during peak distress. The only effective intervention is to ensure safety, reduce sensory input, and wait.",
+          "fr": "Tenter de raisonner, punir ou rediriger physiquement pendant la phase de rage aggravera la situation. Omar ne peut pas traiter le langage en pleine détresse. La seule intervention efficace est d'assurer la sécurité, réduire les stimuli et attendre.",
+          "ar": "محاولة التفكير أو العقاب أو التوجيه الجسدي خلال مرحلة الانفجار ستزيد الوضع سوءاً. لا يستطيع عمر معالجة اللغة في ذروة الضيق. التدخل الفعال الوحيد هو ضمان السلامة وتقليل المدخلات الحسية والانتظار."
+        }
+      }
+    },
+    {
+      "phase": "recovery",
+      "child_prompt": {
+        "en": "Omar gradually stops crying. He sits on the floor, breathing slowly. He looks at you briefly.",
+        "fr": "Omar s'arrête progressivement de pleurer. Il s'assoit par terre, respire lentement. Il vous regarde brièvement.",
+        "ar": "يتوقف عمر تدريجياً عن البكاء. يجلس على الأرض ويتنفس ببطء. ينظر إليك لفترة وجيزة.",
+        "es": "Omar deja de llorar gradualmente. Se sienta en el suelo, respirando lentamente. Te mira brevemente.",
+        "pt": "Omar para de chorar gradualmente. Senta no chão, respirando devagar. Olha para você brevemente.",
+        "sw": "Omar polepole anaacha kulia. Anakaa sakafuni, akipumua polepole. Anakuangalia kwa muda mfupi."
+      },
+      "good_response_keywords": [
+        "ready", "when you're ready", "here", "with you", "no rush",
+        "prêt", "quand tu veux", "je suis là", "pas de presse",
+        "جاهز", "عندما تكون مستعداً", "أنا هنا", "لا عجلة"
+      ],
+      "feedback": {
+        "good": {
+          "en": "Well handled. Waiting for Omar to signal readiness before re-engaging respects his recovery window. Avoid debriefing or discussing the episode now — his nervous system is still fragile. A simple, warm presence is enough.",
+          "fr": "Bien géré. Attendre qu'Omar signale sa disponibilité avant de re-engager respecte sa fenêtre de récupération. Évitez de faire un bilan de l'épisode maintenant — son système nerveux est encore fragile.",
+          "ar": "تمت المعالجة بشكل جيد. انتظار إشارة عمر للاستعداد قبل إعادة التواصل يحترم نافذة تعافيه. تجنب مناقشة الحادثة الآن — جهازه العصبي لا يزال هشاً."
+        },
+        "neutral": {
+          "en": "Good — you gave Omar space. When he looks at you, a gentle smile or a quiet 'I'm here' is enough to reconnect. Avoid bringing up the earlier conflict.",
+          "fr": "Bien — vous avez donné de l'espace à Omar. Quand il vous regarde, un sourire doux ou un 'je suis là' suffit pour se reconnecter. Évitez de revenir sur le conflit précédent.",
+          "ar": "جيد — أعطيت عمر مساحة. عندما ينظر إليك، ابتسامة لطيفة أو 'أنا هنا' كافٍ لإعادة الاتصال. تجنب العودة إلى الصراع السابق."
+        },
+        "poor": {
+          "en": "Avoid discussing what happened, setting consequences, or asking Omar to apologize during the recovery phase. He is not yet regulated and cannot process this. Doing so will likely trigger another escalation. Reconnect first, debrief later — much later, if at all.",
+          "fr": "Évitez de discuter de ce qui s'est passé, d'établir des conséquences ou de demander à Omar de s'excuser pendant la phase de récupération. Il n'est pas encore régulé. Reconnectez-vous d'abord.",
+          "ar": "تجنب مناقشة ما حدث أو وضع عواقب أو مطالبة عمر بالاعتذار خلال مرحلة التعافي. إنه لم يتنظم بعد. أعد التواصل أولاً."
+        }
+      }
+    }
+  ],
+  "references": [
+    "Myles & Southwick, 2005 — Asperger Syndrome and Difficult Moments",
+    "NICE NG11, 2021",
+    "AAP, 2020",
+    "Cooper, Heron & Heward — Applied Behavior Analysis (3rd ed.)"
+  ],
+  "validated_by": "Specialized educator, integrated school settings",
+  "version": "1.0",
+  "last_updated": "2026-03-31"
+}

@@ -1,0 +1,29 @@
+name: Validate Scenarios
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scenarios/**/*.json'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scenarios/**/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install jsonschema
+        run: pip install jsonschema
+
+      - name: Validate all scenario JSON files
+        run: python .github/scripts/validate_scenarios.py
