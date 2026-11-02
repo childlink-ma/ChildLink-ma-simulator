@@ -160,6 +160,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). We especially welcome:
 ## Nonprofit
 
 Led by **Dr. Fatima Azzahra Mastari** under the **ChildLink-MA** nonprofit.
-RNA W941020510 · SIRET 989 176 201 00014 · Vitry-sur-Seine, France.
+RNA W941020510 · SIRET 989 176 201 00014 · Île-de-France, France.
 
 📩 admin@childlink-ma.org · 🌐 childlink-ma.org
